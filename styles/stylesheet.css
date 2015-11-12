@@ -20,9 +20,6 @@ header li {
 article {
   clear: both;
 }
-h2, h3, h4, h5 {
-  margin-bottom: 1rem;
-}
 
 /* font styling */
 a {
@@ -34,12 +31,6 @@ h1 {
   font-family: 'Vollkorn', serif;
   font-weight: normal;
   font-size: 1.5rem;
-}
-h2, h3, h4, h5 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 100;
-  font-size: 1.5rem;
-  color: rgb(14, 133, 143);
 }
 .bodycopy {
   font-family: 'Vollkorn', serif;
