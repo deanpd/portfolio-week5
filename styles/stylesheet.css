@@ -23,24 +23,38 @@ article {
 
 /* font styling */
 a {
-  text-decoration: none;
+  font-size: 1.25rem;
   font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
   color: rgb(14, 133, 143);
+}
+a:hover {
+  background-color: rgb(14, 133, 143);
+  color: white;
 }
 h1 {
   font-family: 'Vollkorn', serif;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 1.5rem;
 }
 .bodycopy {
   font-family: 'Vollkorn', serif;
   font-weight: normal;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
+  line-height: 1.65rem;
 }
 footer {
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
-  font-size: 0.75rem;
+  font-size: 1.1rem;
+}
+.offscreen {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 /* fonts
